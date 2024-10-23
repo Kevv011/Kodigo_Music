@@ -1,6 +1,6 @@
 import { CarouselMusic } from '../components/CarouselMusic' // Importamos el componente Music
 import { Playlist } from "../components/Playlist" // Importamos el componente Playlist
-import "../assets/css/home.css" // Importamos el archivo css de la página de inicio
+import "../assets/css/Home.css" // Importamos el archivo css de la página de inicio
 
 export const Home = () => {
     return (
