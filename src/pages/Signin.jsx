@@ -7,13 +7,17 @@ export const Signin = () => {
         formState: { errors },
     } = useForm();
 
+    const onSubmit = (data) => {
+        console.log(data);
+    };
+
     return (
-        <form onSubmit={handleSubmit()} className="w-75 container my-5">
+        <form onSubmit={handleSubmit(onSubmit)} className="w-75 container my-5">
             <div className="text-center">
                 <h2><strong>Ingresa tus credenciales</strong></h2>
                 <h5>Para una mejor experiencia</h5>
             </div>
-
+            
             {/* Campo Nombre */}
             <div className="mb-3 mt-4">
                 <label htmlFor="name" className="form-label">Nombre</label>
