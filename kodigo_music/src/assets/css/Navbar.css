@@ -1,0 +1,17 @@
+.nav-app {
+    background-color:#000;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    position: sticky;
+    top:0;
+    z-index:10;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    background-color: white !important; 
+    border-color: white !important; 
+}
